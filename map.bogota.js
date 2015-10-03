@@ -24,10 +24,13 @@ $('#bogota').vectorMap({
     },
     onRegionClick: function(element, code, region)
     {
+      /*
       var url = link_data[code];
 
       if (code != '14' && code != '20') {
         window.location = url;
       }
+      */
+      event.preventDefault();
     }
 });
